@@ -27,7 +27,7 @@ layout: default
       Buildings can produce resources and consume resources during the process to create production chains (Wheat Farm -> Mill -> Bakery and Orchard -> Brewery being examples).<br>
       An example building template for the wheat field:<br>
       
-      {% highlight json %}
+{% highlight json %}
 {
   "_name": "Field",
   "ENUM": 2,
@@ -40,10 +40,8 @@ layout: default
   "PRODUCTION_TICKS": 10,
   "RESOURCES_COST_TO_BUILD": [ [ 4, 1 ] ],
   "TICKS_TO_BUILD": 5
-}
-      {% endhighlight %}
+} {% endhighlight %}
       
-      <br>
       There are units which can be selected and moved around the map with a basic pathfinding algorithm. The units have a basic attack and can be ordered to damage
       another unit when next to it.<br>
       <img src="/docs/assets/images/frontier/basic_pathing.png" alt="An image of basic pathfinding for a unit."><br>
