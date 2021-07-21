@@ -1,1 +1,12 @@
+title: Andrew Yantos
+author: Andrew Yantos
+email: andrewyantos@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Andrew Yantos' programming portfolio website. Demonstrating ability with C++, C#, WPF and Computer Graphics technologies.
+# social links
+github_username:  Andidy # DO NOT include the @ character, or else the build will fail!
+linkedin: andrew-yantos
+
+show_excerpts: true # set to false to remove excerpts on the homepage
+
 theme: jekyll-theme-midnight
