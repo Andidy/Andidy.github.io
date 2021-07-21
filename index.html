@@ -25,7 +25,9 @@ layout: default
       <img src="/docs/assets/images/buildings.png" alt="An image of the game with various buildings constructed."><br>
       It features a number of building types all moddable by accessing the building template JSON file. 
       Buildings can produce resources and consume resources during the process to create production chains (Wheat Farm -> Mill -> Bakery and Orchard -> Brewery being examples).<br>
-      {% highlight json %}
+      
+      <br>
+      A badly formatted example building template while I figure out syntax highlighting for github-pages:<br>
       {
         "_name": "Field",
         "ENUM": 2,
@@ -39,7 +41,7 @@ layout: default
         "RESOURCES_COST_TO_BUILD": [ [ 4, 1 ] ],
         "TICKS_TO_BUILD": 5
       }
-      {% endhightlight %}
+      <br>
       There are units which can be selected and moved around the map with a basic pathfinding algorithm. The units have a basic attack and can be ordered to damage
       another unit when next to it.<br>
       The UI and game map are rendered seperately with the game map supporting panning and scaling from 1x to 8x. Animation is supported.<br>
