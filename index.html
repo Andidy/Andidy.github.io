@@ -3,7 +3,7 @@ layout: default
 ---
 
 <body>
-  <p>Welcome, I don't know how you got here, but stay a while and learn about me :)</p>
+  <p>Welcome, stay a little while and learn about me :)</p>
   
   <div id="projects">
     <h2>Projects:</h2>
@@ -19,5 +19,20 @@ layout: default
       <li>Frontier, A 2D software rendered city building game. (Inactive)<img src="/docs/assets/images/buildings.png" alt="An image of the game with various buildings constructed."></li>
       <li>Carnegie, A 2D tilemap renderer using D3D12 (Mostly complete but, Abandoned)<img src="/docs/assets/images/carnegie.png" alt="An image of progress adding animations and layers."></li>
     </ul>
+    
+    <h3>Frontier (Inactive)</h3>
+    <p>Frontier is a software rendered 2D city building game.<br>
+      <img src="/docs/assets/images/buildings.png" alt="An image of the game with various buildings constructed."><br>
+      It features a number of building types all moddable by accessing the building template JSON file. 
+      Buildings can produce resources and consume resources during the process to create production chains (Wheat Farm -> Mill -> Bakery and Orchard -> Brewery being examples).
+      There are units which can be selected and moved around the map with a basic pathfinding algorithm. The units have a basic attack and can be ordered to damage
+      another unit when next to it.<br>
+      The UI and game map are rendered seperately with the game map supporting panning and scaling from 1x to 8x. Animation is supported.<br>
+      The game map rendering is tile based and so in order to improve visual fidelity I implemented Wang-Blob tiles so that borders between different terrain types
+      would have interesting graphics. I also implemented sub-tile variance using blue noise so that even when two adjacent tiles have the same Wang-Blob tile type
+      they are likely to have a different set of the four sub-tiles that make up a full game map tile.<br>
+      Frontier features keyboard and mouse support and a basic UI with simple buttons, panels, and bitmap based text.<br>
+      Frontier is in active because I am more interested in 3D graphics (See Engine) right now.
+    </p>
   </div>
 </body>
