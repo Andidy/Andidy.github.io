@@ -1,13 +1,17 @@
 title: Andrew Yantos
 author: Andrew Yantos
-email: andrewyantos@gmail.com
-description: >
-  My programming portfolio website. Demonstrating ability with C++, C#, WPF and Computer Graphics technologies.
+  social:
+    github:  Andidy
+    linkedin: andrew-yantos
+    email: andrewyantos@gmail.com
 
-# social links
-social:
-  github:  Andidy
-  linkedin: andrew-yantos
+  description: >
+    My programming portfolio and blog site. Demonstrating ability with C++, C#, WPF and Computer Graphics technologies.
+
+  about: |
+    I'm Andrew Yantos, an aspiring software engineer currently focusing my efforts on projects that interest me, namely, budgeting and game development.
+
+  
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
