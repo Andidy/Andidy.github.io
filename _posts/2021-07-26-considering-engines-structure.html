@@ -1,0 +1,14 @@
+---
+layout: post
+title: Considering engine's structure before moving forward
+---
+
+Currently engine’s code is structured in a way similar to the way object-oriented classes are defined.
+The program is broken up into 3 main modules or layers, the platform layer, the rendering layer, and the game layer.
+The idea behind this structure is that each layer’s primary dependency is the previous layer.
+The platform layer is the main entry point and cannot function without the specific OS its built for.
+The renderer cannot function without the platform layer and any rendering API the OS may provide.
+The game cannot function without the platform layer to provide input, sound and display,
+and the rendering layer to calculate the image to provide to the display.
+Each layer contains the data declarations and definitions of its classes, structs and functions.
+For example: the game has a struct “GameState” which stores things like game object positions and rotations and the position and rotation of the game’s camera and contains functions like “GameUpdate” which updates the game state based on the player’s input, the renderer contains data like the vertex buffers and shader references to know what it needs to draw to the screen, and functions like “RenderFrame” which make the appropriate API calls to draw the frame, and similar for the platform layer.
