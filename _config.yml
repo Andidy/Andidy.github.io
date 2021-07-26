@@ -1,14 +1,15 @@
 title: Andrew Yantos
 author: Andrew Yantos
-  github_username: Andidy
-  linkedin: andrew-yantos
-  email: andrewyantos@gmail.com
 
-  description: >
-    My programming portfolio and blog site. Demonstrating ability with C++, C#, WPF and Computer Graphics technologies.
+github_username: Andidy
+linkedin: andrew-yantos
+email: andrewyantos@gmail.com
 
-  about: |
-    I'm Andrew Yantos, an aspiring software engineer currently focusing my efforts on projects that interest me, namely, budgeting and game development.
+description: >
+  My programming portfolio and blog site. Demonstrating ability with C++, C#, WPF and Computer Graphics technologies.
+
+about: |
+  I'm Andrew Yantos, an aspiring software engineer currently focusing my efforts on projects that interest me, namely, budgeting and game development.
 
   
 
