@@ -44,6 +44,6 @@ the four sub-tiles that make up a full game map tile. Compare the grass textures
 
 Frontier features keyboard and mouse support and a basic UI with simple buttons, panels, and bitmap based text.
 
-Frontier is inactive because I am more interested in 3D graphics (See Engine) right now.
+Frontier is inactive because I am more interested in 3D graphics (See [Engine](https://andidy.github.io/engine)) right now.
 
 [Back to homepage](https://andidy.github.io/)
