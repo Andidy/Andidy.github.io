@@ -1,6 +1,6 @@
 ---
 layout: post
-title: \[Engine\] Moving ady_math improvements to the ady_math repo
+title: Engine: Moving ady_math improvements to the ady_math repo
 ---
 
 A common dependency I've been using throughout my C++ projects is what I call ady_math.h.
