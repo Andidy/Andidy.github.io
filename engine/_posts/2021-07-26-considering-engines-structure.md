@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Engine: Considering engine's structure before moving forward
+title: Engine Considering engine's structure before moving forward
 ---
 
 Currently engine’s code is structured in a way similar to the way object-oriented classes are defined.

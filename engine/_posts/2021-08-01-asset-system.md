@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Engine: Adding an asset system for 3D models
+title: Engine Adding an asset system for 3D models
 ---
 
 I want to add an asset system to engine to make it easier to load 3D models into it. Currently most stuff is hardcoded which
