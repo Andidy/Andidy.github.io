@@ -1,6 +1,6 @@
 ---
 layout: page
-title: frontier
+title: frontier (Inactive)
 ---
 
 Frontier is a software rendered 2D city building game. [GitHub](github.com/Andidy/frontier)
