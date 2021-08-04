@@ -49,6 +49,8 @@ cd back/to/main/repo
 git add <submodule>
 
 git commit -m "Updated submodule"
+
+git push
 ```
 
 And if we want to add our own changes to the submodule to the submodule's repo:
@@ -61,6 +63,14 @@ cd path/to/folder/of/submodule
 git add <changes>
 
 git commit -m "<your commit message>"
+
+git push
+
+cd back/to/main/repo
+
+git add <submodule>
+
+git commit -m "Updated submodule"
 
 git push
 ```
