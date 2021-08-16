@@ -31,6 +31,7 @@ it includes a decent little feature set:
 [![Object Picking](/docs/assets/images/engine/yt_object_picking.png)](https://www.youtube.com/watch?v=XoNrCGmb1VI)
 
 [Link to the bunny model and texture used for the preview image](https://opengameart.org/content/hand-painted-bunny-unrigged-version)
+
 For the deer model and tree model I don't remember where I got them from but I remember they were open/permissive licenses.
 
 [Back to homepage](https://andidy.github.io/)
