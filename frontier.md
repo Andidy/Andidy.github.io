@@ -3,7 +3,7 @@ layout: page
 title: frontier (Inactive)
 ---
 
-Frontier is a software rendered 2D city building game. [GitHub](github.com/Andidy/frontier)
+Frontier is a software rendered 2D city building game. [GitHub](https://github.com/Andidy/frontier)
 
 ![An image of the game with various buildings constructed](/docs/assets/images/frontier/buildings.png)
 

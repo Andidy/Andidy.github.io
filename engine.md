@@ -3,7 +3,7 @@ layout: page
 title: engine
 ---
 
-Engine is a project for me to learn about how games are made while improving my C/C++ knowledge [GitHub](github.com/Andidy/engine)
+Engine is a project for me to learn about how games are made while improving my C/C++ knowledge [GitHub](https://github.com/Andidy/engine)
 
 I originally based engine on the early episodes of [Handmade Hero's](https://handmadehero.org/) first 20-ish episodes but once I
 had the basic understanding of how to get something on screen and some input from keyboard and mouse I branched out to exploring
