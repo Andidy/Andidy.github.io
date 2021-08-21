@@ -10,7 +10,7 @@ had the basic understanding of how to get something on screen and some input fro
 different graphics APIs. I used OpenGL, which I had used at UMN for graphics courses and with the 
 [Raylib framework](https://www.raylib.com/) for hobby projects. Eventually, I wanted to explore other options. I spent a bit of
 time with Vulkan doing the "hello triangle" but I found it was too much API to get things done, this is when I started working on
-the [carnegie project](https://andidy.github.io/carnegie) and found similar issues to Vulkan with the API holding me back from
+the [carnegie project](https://andidy.github.io/carnegie) with DirectX 12 and found similar issues to Vulkan with the API holding me back from
 learning the basics of graphics programming. I settled on DirectX 11 as it is built for the OS I develop on and some veteran
 programmers I've spoken with have told me that it has less issues with drivers and shipping to other people.
 
