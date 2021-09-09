@@ -24,11 +24,18 @@ it includes a decent little feature set:
   - Lighting done in pixel shader
   - Single texture per model
   - Rendering data is seperated from gameplay data
-- Object Picking for rendered entities (very basic hitbox right now)
+  - Alpha blending
+- Object Picking for rendered entities (sphere hitbox for complex models, quad hitbox for quads)
+- Asset System using JSON to create handles and load model, texture, mesh and entity data from disk
+- Entity movement (single waypoint) through mouse click controls
 
 ![Textured Models with Basic Lighting](/docs/assets/images/engine/textured_models_basic_lighting.png)
 
+![Alpha Blending](/docs/assets/images/engine/blending.png)
+
 [![Object Picking](/docs/assets/images/engine/yt_object_picking.png)](https://www.youtube.com/watch?v=XoNrCGmb1VI)
+
+[![Entity Movement](/docs/assets/images/engine/yt_entity_movement.png)](https://youtu.be/xN8cdNZO4qc)
 
 [Link to the bunny model and texture used for the preview image](https://opengameart.org/content/hand-painted-bunny-unrigged-version)
 
